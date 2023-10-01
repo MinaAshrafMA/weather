@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #1e202b !important;
+}
+
+.navlittle {
+    font-size: 10px;
+}
+
+.navlist ul li {
+    text-decoration: none;
+    color: white;
+    transition: all;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navlist ul li:hover {
+    border: 2px solid #009ad8;
+    color: #009ad8;
+}
+
+.homePage .container-fluid {
+    background-position: center center;
+    background-size: cover;
+    background-image: url(banner.png);
+    height: 40%;
+    width: 110%;
+    background-repeat: no-repeat;
+}
+
+.homePage {
+    height: 77vh;    
+    background-color: #1e202b !important;
+    position: relative;
+}
+
+.lowersection {
+    background-color: #1e202b !important;
+    height: 35vh;
+}
+
+.frontContainer {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.searchBar {
+    background-color: #1e202b !important;
+
+}
+
+.searchBar input {
+    background-color: transparent;
+    border: none;
+}
+
+.searchBar button {
+    border: none;
+    background-color: #009ad8;
+}
+
+.r1c1 , .r1c3 {
+    background-color: #2d303d;
+}
+
+.r1c2{
+    background-color: #222530;
+}
+
+.r2c1 , .r2c3 {
+    background-color: #323544;
+}
+
+.r2c2 {
+    background-color: #262936;
+}
+
+.frontContainer .containerr {
+    border-radius: 20%;
+}
+
+footer {
+    background-color: #323544;
+}
+
+footer input {
+    background-color: #1e202b;
+    border: none;
+}
+
+footer .inputholder {
+    background-color: #1e202b;
+}
+
+footer button {
+    background-color: #009ad8 !important;
+}
+
+footer .iconn {
+    margin: 10px;
+    border-radius: 50%;
+    text-align: center;
+    width: 1rem;
+    height: 1rem;
+    transition: all 0.5s;
+    border: none;
+    background-color: #1e202b;
+    color: #009ad8 !important;
+}
+
+footer .iconn:hover {
+    color: white !important;
+    border: white !important;
+    background-color:#009ad8  !important;
+}

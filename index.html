@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <nav class="navbar bg-body-tertiary">
+    <div class="container p-1 my-3">
+      <div class="navTxt d-flex justify-content-center align-items-center">
+        <div class="navIcon">
+          <i class="fa-solid fa-cloud fs-1 text-info"></i>
+        </div>
+        <div class="slogan d-flex align-items-center">
+          <a class="navbar-brand text-white fs-4"> weather <br>
+            <p class="navlittle text-secondary">tagline goes here</p>
+          </a>
+        </div>
+      </div>
+      <div class="navlist w-50 p-2">
+        <ul class="d-flex justify-content-around list-unstyled text-white m-auto p-3">
+          <li class="homebtn px-3 rounded-pill" id="homeBtn">Home</li>
+          <li class="newsbtn px-3 rounded-pill"> News</li>
+          <li class="cambtn px-3 rounded-pill"> Live Cameras</li>
+          <li class="photosbtn px-3 rounded-pill">Photos</li>
+          <li class="contactbtn px-3 rounded-pill">Contact</li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="homePage">
+
+    <div class="container-fluid w-100">
+
+    </div>
+
+    <div class="lowersection py-5">
+
+    </div>
+  </div>
+
+  <div class="frontContainer w-75 m-auto pt-5 d-flex justify-content-center align-items-center">
+    <div class="container w-100">
+      <div class="searchBar d-flex my-5 rounded-pill bg-danger">
+        <input type="text" name="" id="searchcity" class=" w-100 rounded-pill py-2 px-1 text-white"
+          placeholder=" Find your location..."><button class="searchBtn text-white rounded-pill px-5 py-2 m-1">Find</button>
+  
+      </div>
+  
+      <div class="containerr text-center rounded-circle">
+        <div class="row">
+          <div class="r1c1 col-md-4 d-flex justify-content-between align-items-center text-white text-center">
+            <p id="todayDay" class="p-2"></p>
+            <p id="todayDate" class="p-2"></p>
+          </div>
+          <div class="r1c2 col-md-4 d-flex justify-content-center text-white">
+            <p id="tomorrowDay"></p>
+          </div>
+          <div class="r1c3 col-md-4 d-flex justify-content-center text-white">
+            <p id="afterTommorowDay"></p>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="r2c1 col-md-4 text-white">
+            <p id="searchedcity" class=""></p>
+            <div class="degree p-3 d-flex">
+              <p id="todayDegree" class="p-3 fs-1"></p>
+              <img src="" alt="" id="todayImg" class="w-25">
+            </div>
+            <p id="todayState" class="text-info text-start"></p>
+  
+  
+            <div class="degreeCont d-flex">
+              <div class="d-flex align-items-center justify-content-center text-center p-3 ms-0 mx-4">
+                <i class="fa-solid fa-umbrella"></i>
+                <p class="">20%</p>
+              </div>
+              <div class="d-flex align-items-center justify-content-center mx-4">
+                <i class="fa-solid fa-wind"></i>
+                <p>20%</p>
+              </div>
+              <div class="d-flex align-items-center justify-content-center mx-4">
+                <i class="fa-regular fa-compass"></i>
+                <p>20%</p>
+              </div>
+  
+            </div>
+  
+          </div>
+          <div class="r2c2 col-md-4 text-white">
+            <img src="" alt="" id="tomorrowImg" class="w-25">
+            <p id="tomorrowDegree"></p>
+            <p id="tomorrowNightDegree"></p>
+            <p class="text-info text-center" id="tomorrowState"></p>
+          </div>
+          <div class="r2c3 col-md-4 text-white">
+            <img src="" alt="" id="afterTomorrowImg" class="w-25">
+            <p id="afterTomorrowDegree"></p>
+            <p id="afterTomorrowNightDegree"></p>
+            <p class="text-info text-center" id="afterTomorrowState"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+  </div>
+
+
+
+  <footer class="footeer">
+    <div class="container py-5 ">
+      <div class="first d-flex justify-content-evenly">
+        <div class="inputholder rounded-pill w-50 d-flex justify-content-between">
+          <input type="text" name="" id="" class=" w-100 rounded-pill py-2 px-1 text-white"
+            placeholder=" Enter your email to subscribe...">
+          <button class="text-white rounded-pill p-2 m-1">subscribe</button>
+        </div>
+
+        <div class="icon-container d-flex">
+          <div class="iconn d-flex mx-2 ms-0 justify-content-center align-items-center text-black rounded-circle p-3">
+            <i class="fa-brands fa-facebook-f mx-2 fs-5"></i>
+          </div>
+          <div class="iconn d-flex mx-2 justify-content-center align-items-center text-black rounded-circle p-3">
+            <i class="fa-brands fa-twitter mx-2 fs-5"></i>
+          </div>
+          <div class="iconn d-flex mx-2 justify-content-center align-items-center text-black rounded-circle p-3">
+            <i class="fa-brands fa-google-plus-g fs-5"></i>
+          </div>
+          <div class="iconn d-flex mx-2 justify-content-center align-items-center text-black rounded-circle p-3">
+            <i class="fa-brands fa-pinterest mx-2 fs-5"></i>
+          </div>
+        </div>
+      </div>
+      <div class="second w-75 m-3">
+        <p class="text-white text-center">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
